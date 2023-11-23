@@ -1,0 +1,128 @@
+.container {
+    height: 100%;
+    width: 100%;
+    margin-top: 7.5rem;
+}
+
+.wrapper {
+    max-width: 1180px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titles {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.titles>h5 {
+    color: #777;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.titles>h2 {
+    color: #333;
+    font-size: 28px;
+}
+
+.inputContainer{
+    margin-top: 2.5rem;
+    border: 2px solid #333;
+    border-radius: 20px;
+    height: 50px;
+    width: 360px;
+    padding: 0.25rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputContainer:focus-within{
+    border-color: #777;
+}
+
+.inputContainer > input{
+  border: none;
+  outline: none;
+  padding-left: 0.5rem;
+}
+
+.inputContainer > .sendIcon{
+    margin-right: 0.5rem;
+    font-size: 20px;
+}
+
+
+
+
+.teamCardsContainer {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center; /* Align vertically centered */
+    margin-top: 20px; /* Add spacing as needed */
+  }
+  
+  .card {
+    text-align: center;
+    margin: 0 10px; /* Adjust spacing between cards */
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px; /* Add spacing between image and text */
+  }
+  
+  .card h3 {
+    margin: 0;
+  }
+  
+  .card p {
+    margin: 0;
+  }
+
+  
+.socialIcons {
+    margin-top: 10px;
+  }
+  
+  .socialIcons ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .socialIcons li {
+    margin: 0 10px;
+  }
+  
+  .socialIcons a {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Add styles for specific social icons if needed */
+  .socialIcons .fa-facebook:hover {
+    color: #3b5998; /* Facebook color on hover */
+  }
+  
+  .socialIcons .fa-twitter:hover {
+    color: #1da1f2; /* Twitter color on hover */
+  }
+  
+  .socialIcons .fa-google-plus:hover {
+    color: #dd4b39; /* Google Plus color on hover */
+  }
+  
+  .socialIcons .fa-linkedin:hover {
+    color: #0077b5; /* LinkedIn color on hover */
+  }

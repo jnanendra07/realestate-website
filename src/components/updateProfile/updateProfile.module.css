@@ -1,0 +1,60 @@
+.container {
+    height: calc(100vh - 60px);
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.wrapper {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper>form {
+    margin-top: 1rem;
+    border: 1px solid #999;
+    border-radius: 20px;
+    padding: 2rem;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.wrapper>form>input {
+    width: 80%;
+}
+
+.error {
+    height: 70px;
+    width: 250px;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #f00;
+    color: #fff;
+    position: fixed;
+    top: 5rem;
+    right: 5rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form .inputBoxImage {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+form .inputBoxImage label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}

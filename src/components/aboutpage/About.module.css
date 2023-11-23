@@ -1,0 +1,32 @@
+
+
+.container{
+    top: 0%;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://assets-global.website-files.com/64c94b2afdeb6fdbaf3b2b7c/64c94b2afdeb6fdbaf3b2ca3_GJR-Images-Commercial.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    
+}
+
+.wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.wrapper > h2{
+    margin-top: 50px;
+    font-size: 46px;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+    margin-bottom: 2.5rem;
+}
