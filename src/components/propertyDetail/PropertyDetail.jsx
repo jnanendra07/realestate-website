@@ -216,7 +216,7 @@ const PropertyDetail = () => {
               <input value={user?.username} type="text" placeholder='My username' name="from_username" />
               <input value={propertyDetail?.currentOwner?.email} type="email" placeholder='Owner email' name="to_email" />
               <input value={desc} type="text" placeholder='Desc' name="message" onChange={(e) => setDesc(e.target.value)} />
-              <input value={add} type="text" placeholder='add' name="message" onChange={(e) => setaddd(e.target.value)} />
+              <input value={add} type="text" placeholder='add' name="message" onChange={(e) => setadd(e.target.value)} />
               <button>Send</button>
             </form>
             <AiOutlineClose onClick={handleCloseForm} className={classes.removeIcon} />
