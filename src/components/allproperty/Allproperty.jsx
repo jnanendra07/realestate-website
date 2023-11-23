@@ -6,7 +6,6 @@ import { useDispatch, useSelector } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom'
 import { request } from '../../util/fetchAPI'
 import person from '../../assets/person.jpg'
-// import YachtCard from '../yachtCard/YachtCard'
 import classes from './allproperties.module.css'
 import { logout } from '../../redux/authSlice'
 const Allproperty = () => {
@@ -80,18 +79,7 @@ const Allproperty = () => {
                             </div>
                         </>
                     )}
-                    {activeBtn === 1 && (
-                        <>
-                            {listedYachts?.length > 0 && <h2 className={classes.title}>Listed Yachts</h2>}
-                            {listedYachts?.length > 0 ? (
-                                <div className={classes.yachts}>
-                                    {listedYachts.map((yacht) => (
-                                        <YachtCard yacht={yacht} key={yacht._id} />
-                                    ))}
-                                </div>
-                            ) : <h2 className={classes.noListed}>You have no listed yachts</h2>}
-                        </>
-                    )}
+                    
                     {activeBtn === 2 && (
                         <>
                             {bookmarkedProperties?.length > 0 && <h2 className={classes.title}>Bookmarked Properties</h2>}
@@ -119,18 +107,7 @@ const Allproperty = () => {
                             </div>
                         </>
                     )}
-                    {activeBtn === 3 && (
-                        <>
-                            {bookmarkedYachts?.length > 0 && <h2 className={classes.title}>Bookmarked Yachts</h2>}
-                            {bookmarkedYachts?.length > 0 ? (
-                                <div className={classes.yachts}>
-                                    {bookmarkedYachts.map((yacht) => (
-                                        <YachtCard yacht={yacht} key={yacht._id} />
-                                    ))}
-                                </div>
-                            ) : <h2 className={classes.noListed}>You have no bookmarked yachts</h2>}
-                        </>
-                    )}
+                    
                 </div>
         </div>
     </div>
